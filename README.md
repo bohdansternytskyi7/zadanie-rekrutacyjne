@@ -8,7 +8,11 @@ frontendowego (np. Angular, React, Vue).
 
 Finalnym wynikiem powinien być katalog ze stroną index.html który mozna otworzyć w przeglądarce internetowej. 
 Należy przesłać zbudowaną wersję (lub instrukcję jak zbudować projekt) oraz kod źródłowy całego projektu na adres email: 
-[system@beesfund.com](mailto:system@beesfund.com)
+[system@beesfund.com](mailto:system@beesfund.com).
+
+Testowy URL z danymi znajduje się pod poniższym adresem:
+
+https://dev.bfund.ovh/api/events/1197
 
 # Specyfikacja projektu
 
