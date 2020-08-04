@@ -1,0 +1,16 @@
+<div [class]="eventClass">
+    <div class="section-1">
+        <div class="calendar-datetime">
+            <img class="calendar" src="../../../assets/svg/calendar.svg" alt="calendar">
+            <h4 class="datetime">{{event.datetime}}</h4>
+        </div>
+        <img class="event-icon" [src]="iconUrl"  alt="event-icon">
+    </div>
+    <div class="section-2">
+        <h3 class='event-name'>{{event.name}}</h3>
+        <a [href]="event.registration_url" target="_blank">ZAPISZ SIĘ</a>
+    </div>
+    <div class="section-3">
+        <p>{{event.description}}</p>
+    </div>
+</div>

@@ -1,0 +1,4 @@
+<h2 class="title">Wydarzenia</h2>
+<div class="container" *ngIf="events">
+    <app-event *ngFor="let event of events; let index = index" [index]="index" [event]="event"></app-event>
+</div>
